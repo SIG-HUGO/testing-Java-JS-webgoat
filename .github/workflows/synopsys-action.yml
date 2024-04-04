@@ -24,5 +24,5 @@ jobs:
           blackduck_scan_full: true
           
            ### PULL REQUEST COMMENTS: Uncomment below to enable
-          # blackduck_prcomment_enabled: true 
-          # github_token: ${{ secrets.GITHUB_TOKEN }} # Required when PR comments is enabled
+          blackduck_prcomment_enabled: true 
+          github_token: ${{ secrets.GH_TOKEN }} # Required when PR comments is enabled
